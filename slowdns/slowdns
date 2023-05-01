@@ -100,7 +100,7 @@ Option9 () {
 
 Option10 () {
     clear
-    wget https://raw.githubusercontent.com/copy47/sld/ipuk/slowdns/update
+    wget https://raw.githubusercontent.com/copy47/sld/main/slowdns/update
     chmod +x update
     bash update
 }

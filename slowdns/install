@@ -43,15 +43,15 @@ fun_att () {
 apt install ncurses-utils -y
 mkdir /etc/slowdns
 cd /etc/slowdns
-wget https://raw.githubusercontent.com/copy47/sld/ipuk/slowdns/dns-server; chmod +x dns-server
-wget https://raw.githubusercontent.com/copy47/sld/ipuk/slowdns/remove-slow; chmod +x remove-slow
-wget https://raw.githubusercontent.com/copy47/sld/ipuk/slowdns/slowdns-info; chmod +x slowdns-info
-wget https://raw.githubusercontent.com/copy47/sld/ipuk/slowdns/slowdns-drop; chmod +x slowdns-drop
-wget https://raw.githubusercontent.com/copy47/sld/ipuk/slowdns/slowdns-ssh; chmod +x slowdns-ssh
-wget https://raw.githubusercontent.com/copy47/sld/ipuk/slowdns/slowdns-ssl; chmod +x slowdns-ssl
-wget https://raw.githubusercontent.com/copy47/sld/ipuk/slowdns/slowdns-socks; chmod +x slowdns-socks
-wget https://raw.githubusercontent.com/copy47/sld/ipuk/slowdns/slowdns; chmod +x slowdns; cp slowdns /bin/
-wget https://raw.githubusercontent.com/copy47/sld/ipuk/slowdns/stopdns; chmod +x stopdns
+wget https://raw.githubusercontent.com/copy47/sld/main/slowdns/dns-server; chmod +x dns-server
+wget https://raw.githubusercontent.com/copy47/sld/main/slowdns/remove-slow; chmod +x remove-slow
+wget https://raw.githubusercontent.com/copy47/sld/main/slowdns/slowdns-info; chmod +x slowdns-info
+wget https://raw.githubusercontent.com/copy47/sld/main/slowdns/slowdns-drop; chmod +x slowdns-drop
+wget https://raw.githubusercontent.com/copy47/sld/main/slowdns/slowdns-ssh; chmod +x slowdns-ssh
+wget https://raw.githubusercontent.com/copy47/sld/main/slowdns/slowdns-ssl; chmod +x slowdns-ssl
+wget https://raw.githubusercontent.com/copy47/sld/main/slowdns/slowdns-socks; chmod +x slowdns-socks
+wget https://raw.githubusercontent.com/copy47/sld/main/slowdns/slowdns; chmod +x slowdns; cp slowdns /bin/
+wget https://raw.githubusercontent.com/copy47/sld/main/slowdns/stopdns; chmod +x stopdns
 }
 fun_bar 'fun_att'
 echo -e "CONFIGURING FIREWALL..."
